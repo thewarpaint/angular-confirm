@@ -54,7 +54,7 @@ angular.module('ngConfirm', [])
 
 						pop.find('.confirmbutton-yes').on('click', function(e) {
 							dontBubble = false;
-							$parse(attrs.confirmButton)(scope);
+							$parse(attrs.ngConfirm)(scope);
 						});
 
 						pop.find('.confirmbutton-no').on('click', function(e) {
