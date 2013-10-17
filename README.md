@@ -2,6 +2,8 @@
 
 Angular directive to display a confirmation dialog before performing an action.
 
+Stolen from http://wegnerdesign.com/blog/angular-js-directive-tutorial-on-attribute-bootstrap-confirm-button/
+
 Bootstrap 2.x required to display a popover.
 
 ## Usage ##
